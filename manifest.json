@@ -1,0 +1,43 @@
+{
+  "name": "FLUXODRIVER - Controle Financeiro para Motoristas",
+  "short_name": "FLUXODRIVER",
+  "description": "Sistema completo de controle financeiro para motoristas de aplicativo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Adicionar Registro",
+      "short_name": "Novo Registro",
+      "description": "Adicionar novo registro do dia",
+      "url": "/#add-record",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Relatórios",
+      "short_name": "Relatórios", 
+      "description": "Ver relatórios e estatísticas",
+      "url": "/#reports",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["finance", "productivity", "business"],
+  "lang": "pt-BR"
+}
